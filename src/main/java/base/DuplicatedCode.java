@@ -4,6 +4,14 @@ public class DuplicatedCode extends BadCodeSmell {
 
 	private int interval;
 
+	/**
+	 * @param className
+	 * @param packageName
+	 * @param file
+	 * @param startRow
+	 * @param endRow
+	 * @param interval
+	 */
 	public DuplicatedCode(String className, String packageName, String file, int startRow, int endRow, int interval) {
 		super(className, packageName, file, startRow, endRow);
 		this.interval = interval;

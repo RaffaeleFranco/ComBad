@@ -10,6 +10,9 @@ public class Duplication {
 		this.duplicatedCodes = new ArrayList<DuplicatedCode>();
 	}
 
+	/**
+	 * @param duplicatedCodes
+	 */
 	public Duplication(ArrayList<DuplicatedCode> duplicatedCodes) {
 		this.duplicatedCodes = duplicatedCodes;
 	}

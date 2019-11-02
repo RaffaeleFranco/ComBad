@@ -7,6 +7,14 @@ public class CommitterBadCodeSmell {
 	private Committer committer;
 	private BadCodeSmell badCodeSmell;
 
+	/**
+	 * This is a simple class that represents an association between a committer and a smell
+	 * 
+	 * @param committerEmail
+	 * @param badCodeSmellId
+	 * @param committer
+	 * @param badCodeSmell
+	 */
 	public CommitterBadCodeSmell(String committerEmail, String badCodeSmellId, Committer committer, BadCodeSmell badCodeSmell) {
 		this.committerEmail = committerEmail;
 		this.badCodeSmellId = badCodeSmellId;

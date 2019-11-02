@@ -7,6 +7,14 @@ public class Range {
 	private String changeId;
 	private Change change;
 
+	/**
+	 * This class represents the number of the modified lines of code
+	 * @param id
+	 * @param startRow
+	 * @param interval
+	 * @param changeId
+	 * @param change
+	 */
 	public Range(String id, int startRow, int interval, String changeId, Change change) {
 		this.id = id;
 		this.startRow = startRow;

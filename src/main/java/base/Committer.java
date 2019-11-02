@@ -10,6 +10,10 @@ public class Committer {
 	private HashSet<BadCodeSmell> badCodeSmells;
 	private HashMap<String, Commit> commits;
 
+	/**
+	 * @param name
+	 * @param email
+	 */
 	public Committer(String name, String email) {
 		this.name = name;
 		this.email = email;

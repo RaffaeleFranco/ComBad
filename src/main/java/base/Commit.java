@@ -17,6 +17,14 @@ public class Commit {
 	private String description;
 	private ArrayList<Change> changes;
 
+	/**
+	 * @param id
+	 * @param emailCommitter
+	 * @param committer
+	 * @param date
+	 * @param description
+	 * @param changes
+	 */
 	public Commit(String id, String emailCommitter, Committer committer, Date date, String description,
 			ArrayList<Change> changes) {
 		this.id = id;
@@ -27,6 +35,14 @@ public class Commit {
 		this.changes = changes;
 	}
 
+
+	/**
+	 * This method requires a no banal computation to read all commits, 
+	 * the commits can be really many, as well as the elements inside it (ranges and changes).
+	 * 
+	 * @param br Read information about commits
+	 * @return A commit object
+	 */
 	public static Commit read(BufferedReader br) {
 		String commitId = null;
 		String committerName = null;

@@ -4,6 +4,14 @@ public class LongMethod extends BadCodeSmell {
 
 	private String methodName;
 
+	/**
+	 * @param className
+	 * @param packageName
+	 * @param file
+	 * @param startRow
+	 * @param endRow
+	 * @param methodName
+	 */
 	public LongMethod(String className, String packageName, String file, int startRow, int endRow, String methodName) {
 		super(className, packageName, file, startRow, endRow);
 		this.methodName = methodName;

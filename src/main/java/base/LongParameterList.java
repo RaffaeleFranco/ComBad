@@ -4,6 +4,14 @@ public class LongParameterList extends BadCodeSmell {
 
 	private String method;
 
+	/**
+	 * @param className
+	 * @param packageName
+	 * @param file
+	 * @param startRow
+	 * @param endRow
+	 * @param method
+	 */
 	public LongParameterList(String className, String packageName, String file, int startRow, int endRow,
 			String method) {
 		super(className, packageName, file, startRow, endRow);

@@ -5,6 +5,15 @@ public class DeadCode extends BadCodeSmell {
 	private String type;
 	private String variable;
 
+	/**
+	 * @param className
+	 * @param packageName
+	 * @param file
+	 * @param startRow
+	 * @param endRow
+	 * @param type
+	 * @param variable
+	 */
 	public DeadCode(String className, String packageName, String file, int startRow, int endRow, String type,
 			String variable) {
 		super(className, packageName, file, startRow, endRow);

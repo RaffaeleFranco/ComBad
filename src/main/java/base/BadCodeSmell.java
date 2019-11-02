@@ -3,14 +3,21 @@ package base;
 import java.util.HashMap;
 
 public abstract class BadCodeSmell {
-
+	
 	private String className;
 	private String packageName;
 	private String file;
 	private int startRow;
 	private int endRow;
 	private HashMap<String, Committer> committers;
-
+	
+	/**
+	 * @param className
+	 * @param packageName
+	 * @param file
+	 * @param startRow
+	 * @param endRow
+	 */
 	public BadCodeSmell(String className, String packageName, String file, int startRow, int endRow) {
 		this.className = className;
 		this.packageName = packageName;
