@@ -73,9 +73,10 @@ public class AllCommittersFrame {
 		panel.setLayout(gbl_panel);
 		frame.getContentPane().add(panel);
 
-		// HashMap<String, Committer> committers =
-		// controller.getCommitManagers().get(name).getCommitters();
-
+		/*
+		 * Working without DB HashMap<String, Committer> committers =
+		 * controller.getCommitManagers().get(name).getCommitters();
+		 */
 		StringTokenizer stringTokenizer = new StringTokenizer(name, "-");
 
 		String systemName = stringTokenizer.nextToken();

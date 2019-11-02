@@ -78,7 +78,7 @@ public class AllBadCodeSmellsFrame {
 		panel.setLayout(gbl_panel);
 		frame.getContentPane().add(panel);
 
-		/*
+		/* Working without DB
 		 * ArrayList<BadCodeSmell> badCodeSmells = new ArrayList<BadCodeSmell>();
 		 * 
 		 * badCodeSmells.addAll(controller.getViolationManagers().get(name).getDeadCodes

@@ -22,6 +22,12 @@ public class AssociationManager {
 	private HashMap<String, Committer> committers;
 	private HashSet<BadCodeSmell> badCodeSmells;
 
+	/** With commits and smells it is possible associate committers with smells,
+	 * in particular there is a correspondence if a committer modified the lines of code where is present the smell
+	 * 
+	 * @param commits 
+	 * @param badCodeSmells
+	 */
 	public AssociationManager(HashMap<String, Commit> commits, ArrayList<BadCodeSmell> badCodeSmells) {
 
 		associations = new HashMap<String, CommitterBadCodeSmell>();

@@ -16,6 +16,9 @@ public class CommitManager {
 	private ArrayList<Change> changes;
 	private ArrayList<Range> ranges;
 
+	/**
+	 * @param br
+	 */
 	public CommitManager(BufferedReader br) {
 		commits = new HashMap<String, Commit>();
 		committers = new HashMap<String, Committer>();

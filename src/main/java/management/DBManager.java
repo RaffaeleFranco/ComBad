@@ -28,6 +28,11 @@ public class DBManager {
 
 	private static DBManager instance;
 
+	/**
+	 * Singleton design pattern 
+	 * 
+	 * @return A single instance of DBManager
+	 */
 	public static DBManager getInstance() {
 		if (instance == null)
 			instance = new DBManager();
@@ -52,6 +57,11 @@ public class DBManager {
 
 	private Connection connection;
 
+	/**
+	 * This class implements the Pure Fabrication design pattern (GRASP), In particular,
+	 * the responsibilities about the access (so read and write) into MySQL database
+	 * are managed here
+	 */
 	private DBManager() {
 		connectDB("localhost", "3306", "root", "password");
 		createDB();
@@ -64,6 +74,13 @@ public class DBManager {
 		createTableAssociations();
 	}
 
+	/**
+	 * @param host localhost
+	 * @param port port
+	 * @param user username
+	 * @param pass password
+	 * @return
+	 */
 	public boolean connectDB(String host, String port, String user, String pass) {
 
 		String url = "jdbc:mysql://" + host + ":" + port

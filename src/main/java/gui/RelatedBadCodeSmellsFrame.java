@@ -78,7 +78,7 @@ public class RelatedBadCodeSmellsFrame {
 		panel.setLayout(gbl_panel);
 		frame.getContentPane().add(panel);
 
-		/*
+		/* Working without DB
 		 * HashSet<BadCodeSmell> badCodeSmells =
 		 * controller.getAssociationManagers().get(name).getCommitters()
 		 * .get(committerEmail).getBadCodeSmells();

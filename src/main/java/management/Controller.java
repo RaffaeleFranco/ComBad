@@ -35,6 +35,9 @@ public class Controller {
 	private HashMap<String, AssociationManager> associationManagers;
 	private DBManager dbManager;
 
+	/** Singleton design pattern 
+	 * @return A single instance of Controller
+	 */
 	public static Controller getInstance() {
 		if (instance == null)
 			instance = new Controller();

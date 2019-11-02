@@ -135,9 +135,10 @@ public class CommittersBadCodeSmellsFrame {
 		gbl_panel.rowWeights = new double[] { 1.0, Double.MIN_VALUE };
 		panel.setLayout(gbl_panel);
 
-		// HashSet<BadCodeSmell> badCodeSmells =
-		// controller.getAssociationManagers().get(name).getBadCodeSmells();
-
+		/* Working without DB
+		 * HashSet<BadCodeSmell> badCodeSmells =
+		 * controller.getAssociationManagers().get(name).getBadCodeSmells();
+		 */
 		StringTokenizer stringTokenizer = new StringTokenizer(name, "-");
 
 		String systemName = stringTokenizer.nextToken();

@@ -94,9 +94,11 @@ public class RelatedCommittersFrame {
 				break;
 			}
 		}
-
-		// HashMap<String, Committer> committers = badCodeSmell.getCommitters();
-
+		/*
+		 * Working without DB 
+		 * HashMap<String, Committer> committers = badCodeSmell.getCommitters();
+		 */
+		
 		StringTokenizer stringTokenizer = new StringTokenizer(name, "-");
 
 		String systemName = stringTokenizer.nextToken();
