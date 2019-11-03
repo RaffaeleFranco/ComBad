@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.14.0" timestamp="2019-06-17T10:40:36.791">
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/dig.java">
+<violation beginline="55" endline="203" begincolumn="15" endcolumn="1" rule="ExcessiveMethodLength" ruleset="Design" package="no-package" class="dig" method="main" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/jnamed.java">
+<violation beginline="396" endline="396" begincolumn="17" endcolumn="26" rule="UnusedLocalVariable" ruleset="Best Practices" package="no-package" class="jnamed" method="generateReply" variable="badversion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'badversion'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/Cache.java">
+<violation beginline="597" endline="726" begincolumn="8" endcolumn="1" rule="ExcessiveMethodLength" ruleset="Design" package="org.xbill.DNS" class="Cache" method="addMessage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/DNSSEC.java">
+<violation beginline="23" endline="1234" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.xbill.DNS" class="DNSSEC" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="697" endline="697" begincolumn="13" endcolumn="13" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.xbill.DNS" class="DNSSEC" method="DSASignaturefromDNS" variable="t" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 't'.
+</violation>
+<violation beginline="749" endline="749" begincolumn="13" endcolumn="18" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.xbill.DNS" class="DNSSEC" method="DSASignaturetoDNS" variable="seqlen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'seqlen'.
+</violation>
+<violation beginline="861" endline="861" begincolumn="13" endcolumn="18" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.xbill.DNS" class="DNSSEC" method="ECDSASignaturetoDNS" variable="seqlen" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'seqlen'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/Generator.java">
+<violation beginline="96" endline="207" begincolumn="9" endcolumn="1" rule="ExcessiveMethodLength" ruleset="Design" package="org.xbill.DNS" class="Generator" method="substitute" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/Master.java">
+<violation beginline="268" endline="371" begincolumn="9" endcolumn="1" rule="ExcessiveMethodLength" ruleset="Design" package="org.xbill.DNS" class="Master" method="_nextRecord" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/RRSIGRecord.java">
+<violation beginline="43" endline="45" begincolumn="12" endcolumn="30" rule="ExcessiveParameterList" ruleset="Design" package="org.xbill.DNS" class="RRSIGRecord" method="RRSIGRecord" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/SIGBase.java">
+<violation beginline="31" endline="33" begincolumn="8" endcolumn="26" rule="ExcessiveParameterList" ruleset="Design" package="org.xbill.DNS" class="SIGBase" method="SIGBase" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/SIGRecord.java">
+<violation beginline="43" endline="45" begincolumn="10" endcolumn="28" rule="ExcessiveParameterList" ruleset="Design" package="org.xbill.DNS" class="SIGRecord" method="SIGRecord" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/SOARecord.java">
+<violation beginline="41" endline="42" begincolumn="10" endcolumn="75" rule="ExcessiveParameterList" ruleset="Design" package="org.xbill.DNS" class="SOARecord" method="SOARecord" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/TKEYRecord.java">
+<violation beginline="65" endline="67" begincolumn="11" endcolumn="37" rule="ExcessiveParameterList" ruleset="Design" package="org.xbill.DNS" class="TKEYRecord" method="TKEYRecord" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/TSIGRecord.java">
+<violation beginline="55" endline="57" begincolumn="11" endcolumn="24" rule="ExcessiveParameterList" ruleset="Design" package="org.xbill.DNS" class="TSIGRecord" method="TSIGRecord" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/Tokenizer.java">
+<violation beginline="218" endline="321" begincolumn="8" endcolumn="1" rule="ExcessiveMethodLength" ruleset="Design" package="org.xbill.DNS" class="Tokenizer" method="get" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/UDPClient.java">
+<violation beginline="39" endline="39" begincolumn="32" endcolumn="32" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.xbill.DNS" class="UDPClient" method="run" variable="n" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'n'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/ZoneTransferIn.java">
+<violation beginline="398" endline="398" begincolumn="15" endcolumn="19" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.xbill.DNS" class="ZoneTransferIn" method="parseRR" variable="delta" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'delta'.
+</violation>
+<violation beginline="527" endline="527" begincolumn="36" endcolumn="42" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.xbill.DNS" class="ZoneTransferIn" method="doxfr" variable="tsigrec" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'tsigrec'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/org/xbill/DNS/spi/DNSJavaNameService.java">
+<violation beginline="152" endline="152" begincolumn="24" endcolumn="29" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.xbill.DNS.spi" class="DNSJavaNameService" method="lookupAllHostAddr" variable="record" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'record'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/main/java/update.java">
+<violation beginline="35" endline="225" begincolumn="1" endcolumn="1" rule="ExcessiveMethodLength" ruleset="Design" package="no-package" class="update" method="update" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="521" endline="687" begincolumn="8" endcolumn="1" rule="ExcessiveMethodLength" ruleset="Design" package="no-package" class="update" method="help" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="704" endline="704" begincolumn="16" endcolumn="16" rule="UnusedLocalVariable" ruleset="Best Practices" package="no-package" class="update" method="main" variable="u" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'u'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/test/java/org/xbill/DNS/DNSSECSIG0Test.java">
+<violation beginline="15" endline="15" begincolumn="37" endcolumn="55" rule="UnusedPrivateField" ruleset="Best Practices" package="org.xbill.DNS" class="DNSSECSIG0Test" variable="SIGNATURE_ALGORITHM" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'SIGNATURE_ALGORITHM'.
+</violation>
+<violation beginline="16" endline="16" begincolumn="37" endcolumn="49" rule="UnusedPrivateField" ruleset="Best Practices" package="org.xbill.DNS" class="DNSSECSIG0Test" variable="KEY_ALGORITHM" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'KEY_ALGORITHM'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/test/java/org/xbill/DNS/NameTest.java">
+<violation beginline="52" endline="1224" begincolumn="1" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.xbill.DNS" class="NameTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/test/java/org/xbill/DNS/RecordTest.java">
+<violation beginline="570" endline="570" begincolumn="21" endcolumn="24" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.xbill.DNS" class="RecordTest" method="test_fromString_invalid" variable="addr" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'addr'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/dnsjava/src/test/java/org/xbill/DNS/TokenizerTest.java">
+<violation beginline="64" endline="194" begincolumn="5" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.xbill.DNS" class="TokenizerTest" method="test_get" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="294" endline="294" begincolumn="25" endcolumn="26" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.xbill.DNS" class="TokenizerTest" method="test_multiple_ungets" variable="tt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'tt'.
+</violation>
+</file>
+</pmd>

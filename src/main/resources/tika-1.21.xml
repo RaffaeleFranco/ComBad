@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.14.0" timestamp="2019-06-17T10:59:46.024">
+<file name="/home/raffaele/Scrivania/tika/tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java">
+<violation beginline="118" endline="1259" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.tika.cli" class="TikaCLI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="358" endline="498" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.cli" class="TikaCLI" method="process" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="539" endline="642" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.cli" class="TikaCLI" method="usage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="853" endline="967" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.cli" class="TikaCLI" method="compareFileMagic" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-batch/src/main/java/org/apache/tika/batch/BatchProcess.java">
+<violation beginline="246" endline="363" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.batch" class="BatchProcess" method="shutdown" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-batch/src/main/java/org/apache/tika/batch/fs/FSBatchProcessCLI.java">
+<violation beginline="122" endline="122" begincolumn="22" endcolumn="31" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch.fs" class="FSBatchProcessCLI" method="execute" variable="mainThread" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'mainThread'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-batch/src/main/java/org/apache/tika/batch/fs/builders/BasicTikaFSConsumersBuilder.java">
+<violation beginline="58" endline="172" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.batch.fs.builders" class="BasicTikaFSConsumersBuilder" method="build" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-batch/src/main/java/org/apache/tika/batch/fs/strawman/StrawManTikaAppDriver.java">
+<violation beginline="147" endline="147" begincolumn="25" endcolumn="28" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch.fs.strawman" class="StrawManTikaAppDriver$TikaVisitor" method="visitFile" variable="exit" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'exit'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-batch/src/test/java/org/apache/tika/batch/CommandLineParserBuilderTest.java">
+<violation beginline="34" endline="34" begincolumn="21" endcolumn="27" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch" class="CommandLineParserBuilderTest" method="testBasic" variable="options" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'options'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-batch/src/test/java/org/apache/tika/batch/RecursiveParserWrapperFSConsumerTest.java">
+<violation beginline="79" endline="79" begincolumn="36" endcolumn="41" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch" class="RecursiveParserWrapperFSConsumerTest" method="testEmbeddedWithNPE" variable="result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'result'.
+</violation>
+<violation beginline="127" endline="127" begincolumn="36" endcolumn="41" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch" class="RecursiveParserWrapperFSConsumerTest" method="testEmbeddedThenNPE" variable="result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'result'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-batch/src/test/java/org/apache/tika/batch/fs/FSFileResourceTest.java">
+<violation beginline="35" endline="35" begincolumn="28" endcolumn="28" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch.fs" class="FSFileResourceTest" method="testRelativization" variable="r" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'r'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-batch/src/test/java/org/apache/tika/batch/fs/HandlerBuilderTest.java">
+<violation beginline="41" endline="41" begincolumn="38" endcolumn="43" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch.fs" class="HandlerBuilderTest" method="testXML" variable="result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'result'.
+</violation>
+<violation beginline="57" endline="57" begincolumn="38" endcolumn="43" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch.fs" class="HandlerBuilderTest" method="testHTML" variable="result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'result'.
+</violation>
+<violation beginline="73" endline="73" begincolumn="38" endcolumn="43" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch.fs" class="HandlerBuilderTest" method="testText" variable="result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'result'.
+</violation>
+<violation beginline="90" endline="90" begincolumn="38" endcolumn="43" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch.fs" class="HandlerBuilderTest" method="testXMLWithWriteLimit" variable="result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'result'.
+</violation>
+<violation beginline="108" endline="108" begincolumn="38" endcolumn="43" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch.fs" class="HandlerBuilderTest" method="testRecursiveParserWrapper" variable="result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'result'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-batch/src/test/java/org/apache/tika/batch/fs/OutputStreamFactoryTest.java">
+<violation beginline="44" endline="44" begincolumn="42" endcolumn="47" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch.fs" class="OutputStreamFactoryTest" method="testIllegalState" variable="result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'result'.
+</violation>
+<violation beginline="59" endline="59" begincolumn="38" endcolumn="43" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.batch.fs" class="OutputStreamFactoryTest" method="testSkip" variable="result" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'result'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/config/TikaConfig.java">
+<violation beginline="78" endline="1156" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.tika.config" class="TikaConfig" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/config/TikaConfigSerializer.java">
+<violation beginline="107" endline="107" begincolumn="85" endcolumn="87" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.config" class="TikaConfigSerializer" method="addExecutorService" variable="doc" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'doc'.
+</violation>
+<violation beginline="107" endline="107" begincolumn="49" endcolumn="52" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.config" class="TikaConfigSerializer" method="addExecutorService" variable="mode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'mode'.
+</violation>
+<violation beginline="107" endline="107" begincolumn="63" endcolumn="73" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.config" class="TikaConfigSerializer" method="addExecutorService" variable="rootElement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'rootElement'.
+</violation>
+<violation beginline="108" endline="108" begincolumn="25" endcolumn="32" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.config" class="TikaConfigSerializer" method="addExecutorService" variable="executor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'executor'.
+</violation>
+<violation beginline="155" endline="155" begincolumn="45" endcolumn="48" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.config" class="TikaConfigSerializer" method="addMimeComment" variable="mode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'mode'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/detect/NonDetectingEncodingDetector.java">
+<violation beginline="53" endline="53" begincolumn="18" endcolumn="47" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.detect" class="NonDetectingEncodingDetector" method="setCharset" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'setCharset(String)'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/detect/TrainedModelDetector.java">
+<violation beginline="146" endline="146" begincolumn="18" endcolumn="52" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.detect" class="TrainedModelDetector" method="writeHisto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'writeHisto(float)'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/embedder/ExternalEmbedder.java">
+<violation beginline="292" endline="421" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.embedder" class="ExternalEmbedder" method="embed" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/fork/ClassLoaderProxy.java">
+<violation beginline="126" endline="126" begincolumn="70" endcolumn="74" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.fork" class="ClassLoaderProxy" method="definePackageIfNecessary" variable="clazz" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'clazz'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/fork/ForkServer.java">
+<violation beginline="100" endline="100" begincolumn="30" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.fork" class="ForkServer" variable="active" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'active'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/io/IOUtils.java">
+<violation beginline="78" endline="1217" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.tika.io" class="IOUtils" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/language/LanguageProfilerBuilder.java">
+<violation beginline="443" endline="546" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.language" class="LanguageProfilerBuilder" method="main" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/language/detect/LanguageNames.java">
+<violation beginline="44" endline="44" begincolumn="24" endcolumn="29" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.language.detect" class="LanguageNames" method="isMacroLanguage" variable="locale" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'locale'.
+</violation>
+<violation beginline="50" endline="50" begincolumn="24" endcolumn="29" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.language.detect" class="LanguageNames" method="hasMacroLanguage" variable="locale" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'locale'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/metadata/IPTC.java">
+<violation beginline="33" endline="1318" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.tika.metadata" class="IPTC" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/metadata/Metadata.java">
+<violation beginline="64" endline="64" begincolumn="31" endcolumn="80" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.metadata" class="Metadata" method="createDateFormat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'createDateFormat(String,TimeZone)'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/mime/ProbabilisticMimeDetectionSelector.java">
+<violation beginline="192" endline="448" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.mime" class="ProbabilisticMimeDetectionSelector" method="applyProbilities" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/parser/ParseContext.java">
+<violation beginline="180" endline="180" begincolumn="36" endcolumn="62" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.parser" class="ParseContext" method="getDocumentBuilderFactory" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'getDocumentBuilderFactory()'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/main/java/org/apache/tika/parser/external/ExternalParsersFactory.java">
+<violation beginline="82" endline="82" begincolumn="32" endcolumn="40" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.external" class="ExternalParsersFactory" method="attachExternalParsers" variable="parserMap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'parserMap'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/test/java/org/apache/tika/MultiThreadedTikaTest.java">
+<violation beginline="252" endline="252" begincolumn="26" endcolumn="34" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika" class="MultiThreadedTikaTest" method="getBaselineDetection" variable="extractor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'extractor'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/test/java/org/apache/tika/TikaDetectionTest.java">
+<violation beginline="41" endline="858" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika" class="TikaDetectionTest" method="testHttpServerFileExtensions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/test/java/org/apache/tika/config/DummyParser.java">
+<violation beginline="30" endline="30" begincolumn="42" endcolumn="49" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.config" class="DummyParser" method="DummyParser" variable="registry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'registry'.
+</violation>
+<violation beginline="31" endline="31" begincolumn="49" endcolumn="62" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.config" class="DummyParser" method="DummyParser" variable="excludeParsers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'excludeParsers'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/test/java/org/apache/tika/config/TikaConfigTest.java">
+<violation beginline="275" endline="275" begincolumn="20" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.config" class="TikaConfigTest" method="testInitializerBadValue" variable="config" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'config'.
+</violation>
+<violation beginline="281" endline="281" begincolumn="20" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.config" class="TikaConfigTest" method="testInitializerPerParserThrow" variable="config" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'config'.
+</violation>
+<violation beginline="286" endline="286" begincolumn="20" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.config" class="TikaConfigTest" method="testInitializerServiceLoaderThrow" variable="config" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'config'.
+</violation>
+<violation beginline="292" endline="292" begincolumn="20" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.config" class="TikaConfigTest" method="testInitializerServiceLoaderThrowButOverridden" variable="config" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'config'.
+</violation>
+<violation beginline="298" endline="298" begincolumn="20" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.config" class="TikaConfigTest" method="testInitializerPerParserWarn" variable="config" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'config'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/test/java/org/apache/tika/detect/MimeDetectionWithNNTest.java">
+<violation beginline="125" endline="125" begincolumn="63" endcolumn="64" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.detect" class="MimeDetectionWithNNTest" method="assertNotNull" variable="in" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'in'.
+</violation>
+<violation beginline="125" endline="125" begincolumn="43" endcolumn="48" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.detect" class="MimeDetectionWithNNTest" method="assertNotNull" variable="string" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'string'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/test/java/org/apache/tika/metadata/TestMetadata.java">
+<violation beginline="399" endline="399" begincolumn="25" endcolumn="30" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.metadata" class="TestMetadata" method="testMultithreadedDates" variable="retVal" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'retVal'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/test/java/org/apache/tika/mime/MimeDetectionTest.java">
+<violation beginline="188" endline="188" begincolumn="59" endcolumn="60" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.mime" class="MimeDetectionTest" method="assertNotNull" variable="in" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'in'.
+</violation>
+<violation beginline="188" endline="188" begincolumn="39" endcolumn="44" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.mime" class="MimeDetectionTest" method="assertNotNull" variable="string" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'string'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/test/java/org/apache/tika/mime/ProbabilisticMimeDetectionTest.java">
+<violation beginline="168" endline="168" begincolumn="59" endcolumn="60" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.mime" class="ProbabilisticMimeDetectionTest" method="assertNotNull" variable="in" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'in'.
+</violation>
+<violation beginline="168" endline="168" begincolumn="39" endcolumn="44" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.mime" class="ProbabilisticMimeDetectionTest" method="assertNotNull" variable="string" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'string'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/test/java/org/apache/tika/parser/ParameterizedParserTest.java">
+<violation beginline="92" endline="92" begincolumn="22" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="ParameterizedParserTest" method="testBadValue" variable="m" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'm'.
+</violation>
+<violation beginline="105" endline="105" begincolumn="22" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="ParameterizedParserTest" method="testBadType" variable="m" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'm'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/test/java/org/apache/tika/parser/mock/MockParser.java">
+<violation beginline="371" endline="371" begincolumn="28" endcolumn="30" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.mock" class="MockParser" method="hangHeavy" variable="div" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'div'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-core/src/test/java/org/apache/tika/parser/multiple/MultipleParserTest.java">
+<violation beginline="52" endline="52" begincolumn="24" endcolumn="30" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.multiple" class="MultipleParserTest" method="testMimeTypeSupported" variable="onlyOct" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'onlyOct'.
+</violation>
+<violation beginline="53" endline="53" begincolumn="24" endcolumn="33" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.multiple" class="MultipleParserTest" method="testMimeTypeSupported" variable="octAndText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'octAndText'.
+</violation>
+<violation beginline="132" endline="252" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.multiple" class="MultipleParserTest" method="testSupplemental" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-dl/src/test/java/org/apache/tika/dl/imagerec/DL4JVGG16NetTest.java">
+<violation beginline="33" endline="33" begincolumn="21" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.dl.imagerec" class="DL4JVGG16NetTest" method="recognise" variable="is" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'is'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/main/java/org/apache/tika/eval/AbstractProfiler.java">
+<violation beginline="115" endline="115" begincolumn="33" endcolumn="49" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.eval" class="AbstractProfiler" variable="UNKNOWN_EXTENSION" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'UNKNOWN_EXTENSION'.
+</violation>
+<violation beginline="188" endline="188" begincolumn="24" endcolumn="29" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.eval" class="AbstractProfiler" variable="config" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'config'.
+</violation>
+<violation beginline="651" endline="651" begincolumn="13" endcolumn="17" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.eval" class="AbstractProfiler" method="writeTokenCounts" variable="stops" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'stops'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/main/java/org/apache/tika/eval/ExtractComparer.java">
+<violation beginline="171" endline="171" begincolumn="30" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.eval" class="ExtractComparer" variable="config" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'config'.
+</violation>
+<violation beginline="218" endline="362" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.eval" class="ExtractComparer" method="compareFiles" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="459" endline="459" begincolumn="21" endcolumn="30" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.eval" class="ExtractComparer" method="findMatchingDigests" variable="digestKeys" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'digestKeys'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/main/java/org/apache/tika/eval/TikaEvalCLI.java">
+<violation beginline="64" endline="64" begincolumn="41" endcolumn="44" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.eval" class="TikaEvalCLI" method="handleStartDB" variable="args" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'args'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/main/java/org/apache/tika/eval/batch/EvalConsumerBuilder.java">
+<violation beginline="46" endline="46" begincolumn="27" endcolumn="31" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.eval.batch" class="EvalConsumerBuilder" variable="count" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'count'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/main/java/org/apache/tika/eval/batch/EvalConsumersBuilder.java">
+<violation beginline="125" endline="125" begincolumn="18" endcolumn="70" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.eval.batch" class="EvalConsumersBuilder" method="getNonNullPath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'getNonNullPath(Map,String)'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/main/java/org/apache/tika/eval/reports/XLSXNumFormatter.java">
+<violation beginline="46" endline="46" begincolumn="16" endcolumn="16" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.eval.reports" class="XLSXNumFormatter" method="applyStyleAndValue" variable="d" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'd'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/main/java/org/apache/tika/eval/tokens/AnalyzerDeserializer.java">
+<violation beginline="146" endline="146" begincolumn="33" endcolumn="35" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.eval.tokens" class="AnalyzerDeserializer" method="buildCharFilters" variable="ret" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'ret'.
+</violation>
+<violation beginline="177" endline="177" begincolumn="34" endcolumn="36" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.eval.tokens" class="AnalyzerDeserializer" method="buildTokenFilterFactories" variable="ret" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'ret'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/main/java/org/apache/tika/eval/tokens/AnalyzerManager.java">
+<violation beginline="53" endline="53" begincolumn="18" endcolumn="26" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.eval.tokens" class="AnalyzerManager" method="newInstance" variable="alphaIdeo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'alphaIdeo'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/main/java/org/apache/tika/eval/tools/TopCommonTokenCounter.java">
+<violation beginline="146" endline="146" begincolumn="21" endcolumn="34" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.eval.tools" class="TopCommonTokenCounter" method="execute" variable="docsWThisField" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'docsWThisField'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/test/java/org/apache/tika/eval/AnalyzerManagerTest.java">
+<violation beginline="90" endline="90" begincolumn="27" endcolumn="33" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.eval" class="AnalyzerManagerTest" method="testTokenCountFilter" variable="termAtt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'termAtt'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/test/java/org/apache/tika/eval/ComparerBatchTest.java">
+<violation beginline="54" endline="54" begincolumn="33" endcolumn="44" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.eval" class="ComparerBatchTest" variable="compJoinCont" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'compJoinCont'.
+</violation>
+<violation beginline="325" endline="325" begincolumn="18" endcolumn="47" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.eval" class="ComparerBatchTest" method="debugShowColumns" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'debugShowColumns(String)'.
+</violation>
+<violation beginline="337" endline="337" begincolumn="20" endcolumn="72" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.eval" class="ComparerBatchTest" method="getString" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'getString(String,String,String)'.
+</violation>
+<violation beginline="349" endline="349" begincolumn="33" endcolumn="66" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.eval" class="ComparerBatchTest" method="getRow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'getRow(String,String)'.
+</violation>
+<violation beginline="379" endline="379" begincolumn="26" endcolumn="54" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.eval" class="ComparerBatchTest" method="getColStrings" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'getColStrings(String)'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/test/java/org/apache/tika/eval/ProfilerBatchTest.java">
+<violation beginline="54" endline="54" begincolumn="33" endcolumn="44" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.eval" class="ProfilerBatchTest" variable="profileTable" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'profileTable'.
+</violation>
+<violation beginline="55" endline="55" begincolumn="33" endcolumn="39" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.eval" class="ProfilerBatchTest" variable="exTable" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'exTable'.
+</violation>
+<violation beginline="56" endline="56" begincolumn="33" endcolumn="37" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.eval" class="ProfilerBatchTest" variable="fpCol" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'fpCol'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/test/java/org/apache/tika/eval/SimpleComparerTest.java">
+<violation beginline="375" endline="375" begincolumn="24" endcolumn="24" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.eval" class="SimpleComparerTest" method="testDebug" variable="t" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 't'.
+</violation>
+<violation beginline="407" endline="407" begincolumn="18" endcolumn="53" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.eval" class="SimpleComparerTest" method="debugPrintRow" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'debugPrintRow(Map)'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/test/java/org/apache/tika/eval/io/FatalExceptionReaderTest.java">
+<violation beginline="28" endline="28" begincolumn="21" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.eval.io" class="FatalExceptionReaderTest" method="testSimpleRead" variable="is" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'is'.
+</violation>
+<violation beginline="29" endline="29" begincolumn="22" endcolumn="27" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.eval.io" class="FatalExceptionReaderTest" method="testSimpleRead" variable="reader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'reader'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/test/java/org/apache/tika/eval/tokens/LuceneTokenCounter.java">
+<violation beginline="39" endline="39" begincolumn="33" endcolumn="54" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.eval.tokens" class="LuceneTokenCounter" variable="ALPHA_IDEOGRAPH_SUFFIX" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'ALPHA_IDEOGRAPH_SUFFIX'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/test/java/org/apache/tika/eval/tokens/TokenCounterTest.java">
+<violation beginline="40" endline="40" begincolumn="23" endcolumn="26" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.eval.tokens" class="TokenCounterTest" variable="topN" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'topN'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-eval/src/test/java/org/apache/tika/eval/util/MimeUtilTest.java">
+<violation beginline="34" endline="34" begincolumn="30" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.eval.util" class="MimeUtilTest" variable="config" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'config'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-example/src/main/java/org/apache/tika/example/DumpTikaConfigExample.java">
+<violation beginline="84" endline="84" begincolumn="31" endcolumn="32" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.example" class="DumpTikaConfigExample" method="main" variable="ex" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'ex'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-example/src/test/java/org/apache/tika/example/DumpTikaConfigExampleTest.java">
+<violation beginline="65" endline="65" begincolumn="31" endcolumn="32" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.example" class="DumpTikaConfigExampleTest" method="testDump" variable="ex" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'ex'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/apple/AppleSingleFileParser.java">
+<violation beginline="55" endline="55" begincolumn="30" endcolumn="42" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="RESOURCE_FORK" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'RESOURCE_FORK'.
+</violation>
+<violation beginline="57" endline="57" begincolumn="30" endcolumn="36" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="COMMENT" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'COMMENT'.
+</violation>
+<violation beginline="58" endline="58" begincolumn="30" endcolumn="36" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="ICON_BW" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'ICON_BW'.
+</violation>
+<violation beginline="59" endline="59" begincolumn="30" endcolumn="39" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="ICON_COLOR" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'ICON_COLOR'.
+</violation>
+<violation beginline="61" endline="61" begincolumn="30" endcolumn="44" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="FILE_DATES_INFO" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'FILE_DATES_INFO'.
+</violation>
+<violation beginline="62" endline="62" begincolumn="30" endcolumn="40" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="FINDER_INFO" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'FINDER_INFO'.
+</violation>
+<violation beginline="63" endline="63" begincolumn="30" endcolumn="48" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="MACINTOSH_FILE_INFO" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'MACINTOSH_FILE_INFO'.
+</violation>
+<violation beginline="64" endline="64" begincolumn="30" endcolumn="45" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="PRODOS_FILE_INFO" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'PRODOS_FILE_INFO'.
+</violation>
+<violation beginline="65" endline="65" begincolumn="30" endcolumn="44" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="MSDOS_FILE_INFO" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'MSDOS_FILE_INFO'.
+</violation>
+<violation beginline="66" endline="66" begincolumn="30" endcolumn="39" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="SHORT_NAME" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'SHORT_NAME'.
+</violation>
+<violation beginline="67" endline="67" begincolumn="30" endcolumn="42" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="AFP_FILE_INFO" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'AFP_FILE_INFO'.
+</violation>
+<violation beginline="68" endline="68" begincolumn="30" endcolumn="41" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.apple" class="AppleSingleFileParser" variable="DIRECTORY_ID" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'DIRECTORY_ID'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/chm/accessor/ChmDirectoryListingSet.java">
+<violation beginline="135" endline="135" begincolumn="17" endcolumn="24" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.chm.accessor" class="ChmDirectoryListingSet" method="enumerateChmDirectoryListingList" variable="stopPmgl" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'stopPmgl'.
+</violation>
+<violation beginline="213" endline="330" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.chm.accessor" class="ChmDirectoryListingSet" method="enumerateOneSegment" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/chm/accessor/ChmItspHeader.java">
+<violation beginline="133" endline="133" begincolumn="49" endcolumn="58" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.chm.accessor" class="ChmItspHeader" method="unmarshalInt32" variable="dataLenght" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'dataLenght'.
+</violation>
+<violation beginline="161" endline="161" begincolumn="51" endcolumn="60" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.chm.accessor" class="ChmItspHeader" method="unmarshalUuid" variable="dataLenght" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'dataLenght'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmExtractor.java">
+<violation beginline="252" endline="375" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.chm.core" class="ChmExtractor" method="extractChmEntry" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/chm/lzx/ChmLzxBlock.java">
+<violation beginline="108" endline="211" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.chm.lzx" class="ChmLzxBlock" method="extractContent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="288" endline="288" begincolumn="50" endcolumn="52" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.chm.lzx" class="ChmLzxBlock" method="decompressUncompressedBlock" variable="len" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'len'.
+</violation>
+<violation beginline="288" endline="288" begincolumn="62" endcolumn="72" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.chm.lzx" class="ChmLzxBlock" method="decompressUncompressedBlock" variable="prevcontent" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'prevcontent'.
+</violation>
+<violation beginline="307" endline="455" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.chm.lzx" class="ChmLzxBlock" method="decompressAlignedBlock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="462" endline="569" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.chm.lzx" class="ChmLzxBlock" method="decompressVerbatimBlock" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/chm/lzx/ChmLzxState.java">
+<violation beginline="151" endline="151" begincolumn="17" endcolumn="30" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.chm.lzx" class="ChmLzxState" method="ChmLzxState" variable="position_slots" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'position_slots'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/dbf/DBFCell.java">
+<violation beginline="138" endline="138" begincolumn="17" endcolumn="20" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.dbf" class="DBFCell" method="getFormattedDateTime" variable="time" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'time'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/dbf/DBFParser.java">
+<violation beginline="120" endline="120" begincolumn="70" endcolumn="75" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.dbf" class="DBFParser" method="getCharset" variable="header" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'header'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/dwg/DWGParser.java">
+<violation beginline="303" endline="303" begincolumn="78" endcolumn="83" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.dwg" class="DWGParser" method="skipTo2000PropertyInfoSection" variable="header" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'header'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/executable/ExecutableParser.java">
+<violation beginline="89" endline="228" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.executable" class="ExecutableParser" method="parsePE" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="122" endline="122" begincolumn="12" endcolumn="21" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.executable" class="ExecutableParser" method="parsePE" variable="numSectors" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'numSectors'.
+</violation>
+<violation beginline="124" endline="124" begincolumn="13" endcolumn="29" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.executable" class="ExecutableParser" method="parsePE" variable="symbolTableOffset" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'symbolTableOffset'.
+</violation>
+<violation beginline="125" endline="125" begincolumn="13" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.executable" class="ExecutableParser" method="parsePE" variable="numSymbols" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'numSymbols'.
+</violation>
+<violation beginline="126" endline="126" begincolumn="12" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.executable" class="ExecutableParser" method="parsePE" variable="sizeOptHdrs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'sizeOptHdrs'.
+</violation>
+<violation beginline="127" endline="127" begincolumn="12" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.executable" class="ExecutableParser" method="parsePE" variable="characteristcs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'characteristcs'.
+</violation>
+<violation beginline="233" endline="406" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.executable" class="ExecutableParser" method="parseELF" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="252" endline="252" begincolumn="12" endcolumn="17" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.executable" class="ExecutableParser" method="parseELF" variable="elfVer" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'elfVer'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/geoinfo/GeographicInformationParser.java">
+<violation beginline="77" endline="77" begincolumn="33" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.geoinfo" class="GeographicInformationParser" variable="LOG" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'LOG'.
+</violation>
+<violation beginline="223" endline="333" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.geoinfo" class="GeographicInformationParser" method="getMetaDataIdentificationInfo" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlParser.java">
+<violation beginline="59" endline="59" begincolumn="33" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.html" class="HtmlParser" variable="LOG" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'LOG'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/image/BPGParser.java">
+<violation beginline="59" endline="169" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.image" class="BPGParser" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="77" endline="77" begincolumn="13" endcolumn="23" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.image" class="BPGParser" method="parse" variable="pixelFormat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'pixelFormat'.
+</violation>
+<violation beginline="134" endline="134" begincolumn="14" endcolumn="28" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.image" class="BPGParser" method="parse" variable="alphaDataLength" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'alphaDataLength'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/image/ImageParser.java">
+<violation beginline="54" endline="54" begincolumn="33" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.image" class="ImageParser" variable="LOG" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'LOG'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/image/PSDParser.java">
+<violation beginline="89" endline="89" begincolumn="13" endcolumn="23" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.image" class="PSDParser" method="parse" variable="numChannels" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'numChannels'.
+</violation>
+<violation beginline="144" endline="144" begincolumn="34" endcolumn="39" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.image" class="PSDParser$ResourceBlock" variable="ID_URL" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'ID_URL'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/image/xmp/JempboxExtractor.java">
+<violation beginline="51" endline="51" begincolumn="33" endcolumn="51" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.image.xmp" class="JempboxExtractor" variable="DEFAULT_XMP_CHARSET" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'DEFAULT_XMP_CHARSET'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java">
+<violation beginline="89" endline="89" begincolumn="16" endcolumn="27" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" variable="FMT_ANPA_UPI" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'FMT_ANPA_UPI'.
+</violation>
+<violation beginline="90" endline="90" begincolumn="16" endcolumn="30" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" variable="FMT_ANPA_UPI_DL" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'FMT_ANPA_UPI_DL'.
+</violation>
+<violation beginline="91" endline="91" begincolumn="16" endcolumn="28" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" variable="FMT_IPTC_7901" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'FMT_IPTC_7901'.
+</violation>
+<violation beginline="92" endline="92" begincolumn="16" endcolumn="29" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" variable="FMT_IPTC_PHOTO" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'FMT_IPTC_PHOTO'.
+</violation>
+<violation beginline="93" endline="93" begincolumn="16" endcolumn="28" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" variable="FMT_IPTC_CHAR" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'FMT_IPTC_CHAR'.
+</violation>
+<violation beginline="94" endline="94" begincolumn="16" endcolumn="23" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" variable="FMT_NITF" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'FMT_NITF'.
+</violation>
+<violation beginline="95" endline="95" begincolumn="16" endcolumn="26" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" variable="FMT_NITF_TT" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'FMT_NITF_TT'.
+</violation>
+<violation beginline="96" endline="96" begincolumn="16" endcolumn="26" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" variable="FMT_NITF_RB" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'FMT_NITF_RB'.
+</violation>
+<violation beginline="110" endline="110" begincolumn="30" endcolumn="31" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" variable="BS" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'BS'.
+</violation>
+<violation beginline="113" endline="113" begincolumn="30" endcolumn="31" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" variable="FF" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'FF'.
+</violation>
+<violation beginline="122" endline="122" begincolumn="30" endcolumn="31" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" variable="EQ" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'EQ'.
+</violation>
+<violation beginline="164" endline="164" begincolumn="14" endcolumn="20" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" method="scanFormat" variable="msgsize" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'msgsize'.
+</violation>
+<violation beginline="201" endline="201" begincolumn="17" endcolumn="37" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" method="setFormat" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'setFormat(int)'.
+</violation>
+<violation beginline="348" endline="348" begincolumn="69" endcolumn="78" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" method="parseHeader" variable="properties" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'properties'.
+</violation>
+<violation beginline="353" endline="353" begincolumn="14" endcolumn="24" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" method="parseHeader" variable="env_urgency" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'env_urgency'.
+</violation>
+<violation beginline="354" endline="354" begincolumn="14" endcolumn="23" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" method="parseHeader" variable="hdr_edcode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'hdr_edcode'.
+</violation>
+<violation beginline="443" endline="694" begincolumn="12" endcolumn="4" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" method="parseBody" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="710" endline="710" begincolumn="15" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.iptc" class="IptcAnpaParser" method="parseFooter" variable="val_peek" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'val_peek'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/iwork/AutoPageNumberUtils.java">
+<violation beginline="81" endline="85" begincolumn="27" endcolumn="52" rule="ExcessiveParameterList" ruleset="Design" package="org.apache.tika.parser.iwork" class="AutoPageNumberUtils" method="i2r" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/iwork/KeynoteContentHandler.java">
+<violation beginline="37" endline="37" begincolumn="21" endcolumn="27" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iwork" class="KeynoteContentHandler" variable="inTitle" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'inTitle'.
+</violation>
+<violation beginline="38" endline="38" begincolumn="21" endcolumn="26" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iwork" class="KeynoteContentHandler" variable="inBody" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'inBody'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/iwork/NumbersContentHandler.java">
+<violation beginline="38" endline="38" begincolumn="21" endcolumn="26" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iwork" class="NumbersContentHandler" variable="inText" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'inText'.
+</violation>
+<violation beginline="64" endline="168" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.iwork" class="NumbersContentHandler" method="startElement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/iwork/PagesContentHandler.java">
+<violation beginline="49" endline="49" begincolumn="27" endcolumn="34" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iwork" class="PagesContentHandler" variable="alphabet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'alphabet'.
+</violation>
+<violation beginline="63" endline="63" begincolumn="17" endcolumn="31" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.iwork" class="PagesContentHandler" variable="numberOfColumns" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'numberOfColumns'.
+</violation>
+<violation beginline="84" endline="196" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.iwork" class="PagesContentHandler" method="startElement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="368" endline="368" begincolumn="35" endcolumn="38" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.iwork" class="PagesContentHandler$HeaderFooter" method="output" variable="what" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'what'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/jdbc/AbstractDBParser.java">
+<violation beginline="45" endline="45" begincolumn="33" endcolumn="46" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.jdbc" class="AbstractDBParser" variable="EMPTY_BYTE_ARR" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'EMPTY_BYTE_ARR'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/journal/TEIDOMParser.java">
+<violation beginline="76" endline="76" begincolumn="54" endcolumn="56" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.journal" class="TEIDOMParser" method="addStaticMet" variable="obj" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'obj'.
+</violation>
+<violation beginline="858" endline="858" begincolumn="63" endcolumn="64" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.journal" class="TEIDOMParser" method="getFirstAttribute" variable="ns" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'ns'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/AbstractPOIFSExtractor.java">
+<violation beginline="152" endline="270" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft" class="AbstractPOIFSExtractor" method="handleEmbeddedOfficeDoc" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ExcelExtractor.java">
+<violation beginline="363" endline="510" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft" class="ExcelExtractor$TikaHSSFListener" method="internalProcessRecord" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/OutlookExtractor.java">
+<violation beginline="144" endline="289" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft" class="OutlookExtractor" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="403" endline="403" begincolumn="53" endcolumn="59" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.microsoft" class="OutlookExtractor" method="handleFromTo" variable="headers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'headers'.
+</violation>
+<violation beginline="422" endline="422" begincolumn="16" endcolumn="38" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.microsoft" class="OutlookExtractor" method="handleFromTo" variable="senderAddressTypeString" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'senderAddressTypeString'.
+</violation>
+<violation beginline="481" endline="482" begincolumn="25" endcolumn="56" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.parser.microsoft" class="OutlookExtractor" method="addFirstChunk" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'addFirstChunk(List,Property,Metadata)'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/POIFSContainerDetector.java">
+<violation beginline="222" endline="340" begincolumn="22" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft" class="POIFSContainerDetector" method="detect" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/WordExtractor.java">
+<violation beginline="70" endline="70" begincolumn="33" endcolumn="46" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft" class="WordExtractor" variable="LIST_DELIMITER" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'LIST_DELIMITER'.
+</violation>
+<violation beginline="266" endline="381" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft" class="WordExtractor" method="handleParagraph" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="574" endline="575" begincolumn="18" endcolumn="67" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.parser.microsoft" class="WordExtractor" method="addTextIfAny" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'addTextIfAny(XHTMLContentHandler,String,String)'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/AbstractOOXMLExtractor.java">
+<violation beginline="286" endline="286" begincolumn="21" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="AbstractOOXMLExtractor" method="handleEmbeddedOLE" variable="is" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'is'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/OOXMLExtractorFactory.java">
+<violation beginline="75" endline="232" begincolumn="19" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLExtractorFactory" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/OOXMLWordAndPowerPointTextHandler.java">
+<violation beginline="100" endline="100" begincolumn="33" endcolumn="38" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLWordAndPowerPointTextHandler" variable="PIC_NS" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'PIC_NS'.
+</violation>
+<violation beginline="101" endline="101" begincolumn="33" endcolumn="47" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLWordAndPowerPointTextHandler" variable="DRAWING_MAIN_NS" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'DRAWING_MAIN_NS'.
+</violation>
+<violation beginline="102" endline="102" begincolumn="33" endcolumn="36" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLWordAndPowerPointTextHandler" variable="V_NS" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'V_NS'.
+</violation>
+<violation beginline="132" endline="132" begincolumn="21" endcolumn="25" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLWordAndPowerPointTextHandler" variable="inPic" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'inPic'.
+</violation>
+<violation beginline="133" endline="133" begincolumn="21" endcolumn="26" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLWordAndPowerPointTextHandler" variable="inPict" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'inPict'.
+</violation>
+<violation beginline="136" endline="136" begincolumn="20" endcolumn="30" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLWordAndPowerPointTextHandler" variable="picFilename" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'picFilename'.
+</violation>
+<violation beginline="151" endline="151" begincolumn="17" endcolumn="33" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLWordAndPowerPointTextHandler" variable="inACFallbackDepth" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'inACFallbackDepth'.
+</violation>
+<violation beginline="202" endline="356" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLWordAndPowerPointTextHandler" method="startElement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/XSLFPowerPointExtractorDecorator.java">
+<violation beginline="94" endline="194" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft.ooxml" class="XSLFPowerPointExtractorDecorator" method="buildXHTML" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="96" endline="96" begincolumn="28" endcolumn="41" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="XSLFPowerPointExtractorDecorator" method="buildXHTML" variable="commentAuthors" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'commentAuthors'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/XWPFListManager.java">
+<violation beginline="40" endline="40" begincolumn="34" endcolumn="51" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="XWPFListManager" variable="OVERRIDE_AVAILABLE" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'OVERRIDE_AVAILABLE'.
+</violation>
+<violation beginline="41" endline="41" begincolumn="33" endcolumn="43" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="XWPFListManager" variable="SKIP_FORMAT" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'SKIP_FORMAT'.
+</violation>
+<violation beginline="44" endline="44" begincolumn="17" endcolumn="17" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="XWPFListManager" variable="b" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'b'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/XWPFWordExtractorDecorator.java">
+<violation beginline="75" endline="75" begincolumn="33" endcolumn="46" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="XWPFWordExtractorDecorator" variable="LIST_DELIMITER" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'LIST_DELIMITER'.
+</violation>
+<violation beginline="183" endline="346" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft.ooxml" class="XWPFWordExtractorDecorator" method="extractParagraph" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/xps/XPSPageContentHandler.java">
+<violation beginline="234" endline="234" begincolumn="20" endcolumn="23" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml.xps" class="XPSPageContentHandler" method="writePage" variable="clip" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'clip'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/xwpf/XWPFEventBasedWordExtractor.java">
+<violation beginline="188" endline="188" begincolumn="45" endcolumn="59" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml.xwpf" class="XWPFEventBasedWordExtractor" method="handlePart" variable="xwpfListManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'xwpfListManager'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/xwpf/ml2006/BinaryDataHandler.java">
+<violation beginline="39" endline="39" begincolumn="28" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006" class="BinaryDataHandler" variable="metadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'metadata'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/xwpf/ml2006/Word2006MLDocHandler.java">
+<violation beginline="39" endline="39" begincolumn="39" endcolumn="43" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006" class="Word2006MLDocHandler" variable="xhtml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'xhtml'.
+</violation>
+<violation beginline="40" endline="40" begincolumn="28" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006" class="Word2006MLDocHandler" variable="metadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'metadata'.
+</violation>
+<violation beginline="41" endline="41" begincolumn="32" endcolumn="43" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006" class="Word2006MLDocHandler" variable="parseContext" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'parseContext'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/xwpf/ml2006/WordAndPowerPointTextPartHandler.java">
+<violation beginline="38" endline="38" begincolumn="66" endcolumn="85" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006" class="WordAndPowerPointTextPartHandler" method="WordAndPowerPointTextPartHandler" variable="relationshipsManager" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'relationshipsManager'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/mp3/AudioFrame.java">
+<violation beginline="140" endline="140" begincolumn="58" endcolumn="64" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.mp3" class="AudioFrame" method="AudioFrame" variable="handler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'handler'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/mp3/ID3v1Handler.java">
+<violation beginline="47" endline="47" begincolumn="60" endcolumn="66" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.mp3" class="ID3v1Handler" method="ID3v1Handler" variable="handler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'handler'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/mp3/ID3v22Handler.java">
+<violation beginline="155" endline="155" begincolumn="46" endcolumn="50" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.mp3" class="ID3v22Handler$RawV22TagIterator" method="RawV22TagIterator" variable="frame" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'frame'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/mp3/ID3v23Handler.java">
+<violation beginline="134" endline="134" begincolumn="46" endcolumn="50" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.mp3" class="ID3v23Handler$RawV23TagIterator" method="RawV23TagIterator" variable="frame" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'frame'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/mp3/ID3v24Handler.java">
+<violation beginline="139" endline="139" begincolumn="46" endcolumn="50" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.mp3" class="ID3v24Handler$RawV24TagIterator" method="RawV24TagIterator" variable="frame" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'frame'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/mp3/LyricsHandler.java">
+<violation beginline="43" endline="43" begincolumn="61" endcolumn="67" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.mp3" class="LyricsHandler" method="LyricsHandler" variable="handler" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'handler'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/mp3/Mp3Parser.java">
+<violation beginline="60" endline="166" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.mp3" class="Mp3Parser" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/mp4/MP4Parser.java">
+<violation beginline="121" endline="308" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.mp4" class="MP4Parser" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/ner/NamedEntityParser.java">
+<violation beginline="77" endline="77" begincolumn="55" endcolumn="61" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.ner" class="NamedEntityParser" method="initialize" variable="context" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'context'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/ocr/TesseractOCRParser.java">
+<violation beginline="609" endline="609" begincolumn="87" endcolumn="90" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.ocr" class="TesseractOCRParser" method="logStream" variable="file" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'file'.
+</violation>
+<violation beginline="609" endline="609" begincolumn="41" endcolumn="47" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.ocr" class="TesseractOCRParser" method="logStream" variable="logType" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'logType'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/pdf/PDF2XHTML.java">
+<violation beginline="177" endline="279" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.pdf" class="PDF2XHTML" method="extractImages" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/pdf/PDFParser.java">
+<violation beginline="207" endline="347" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.pdf" class="PDFParser" method="extractMetadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/pdf/PDFParserConfig.java">
+<violation beginline="558" endline="558" begincolumn="18" endcolumn="59" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.parser.pdf" class="PDFParserConfig" method="getLongProp" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'getLongProp(String,long)'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/pkg/PackageParser.java">
+<violation beginline="87" endline="87" begincolumn="36" endcolumn="45" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.pkg" class="PackageParser" variable="TIKA_OOXML" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'TIKA_OOXML'.
+</violation>
+<violation beginline="88" endline="88" begincolumn="36" endcolumn="39" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.pkg" class="PackageParser" variable="GTAR" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'GTAR'.
+</violation>
+<violation beginline="89" endline="89" begincolumn="36" endcolumn="38" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.pkg" class="PackageParser" variable="KMZ" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'KMZ'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/pkg/ZipContainerDetector.java">
+<violation beginline="369" endline="369" begincolumn="30" endcolumn="61" rule="UnusedPrivateMethod" ruleset="Best Practices" package="org.apache.tika.parser.pkg" class="ZipContainerDetector" method="detectAutoCADOPC" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'detectAutoCADOPC(OPCPackage)'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/pot/PooledTimeSeriesParser.java">
+<violation beginline="132" endline="132" begincolumn="20" endcolumn="28" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.pot" class="PooledTimeSeriesParser" method="parse" variable="cmdOutput" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'cmdOutput'.
+</violation>
+<violation beginline="187" endline="187" begincolumn="13" endcolumn="21" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.pot" class="PooledTimeSeriesParser" method="computePoT" variable="exitValue" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'exitValue'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/prt/PRTParser.java">
+<violation beginline="152" endline="152" begincolumn="37" endcolumn="41" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.prt" class="PRTParser" method="handleViewName" variable="typeA" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'typeA'.
+</violation>
+<violation beginline="152" endline="152" begincolumn="48" endcolumn="52" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.prt" class="PRTParser" method="handleViewName" variable="typeB" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'typeB'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/recognition/tf/TensorflowRESTVideoRecogniser.java">
+<violation beginline="69" endline="69" begincolumn="41" endcolumn="55" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.recognition.tf" class="TensorflowRESTVideoRecogniser" variable="SUPPORTED_MIMES" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'SUPPORTED_MIMES'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/rtf/RTFEmbObjHandler.java">
+<violation beginline="77" endline="77" begincolumn="65" endcolumn="72" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.rtf" class="RTFEmbObjHandler" method="RTFEmbObjHandler" variable="metadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'metadata'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/rtf/TextExtractor.java">
+<violation beginline="57" endline="1460" begincolumn="7" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.tika.parser.rtf" class="TextExtractor" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="262" endline="262" begincolumn="17" endcolumn="23" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.rtf" class="TextExtractor" variable="written" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'written'.
+</violation>
+<violation beginline="799" endline="971" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.rtf" class="TextExtractor" method="processControlWord" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1034" endline="1318" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.rtf" class="TextExtractor" method="processControlWord" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="1350" endline="1459" begincolumn="13" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.rtf" class="TextExtractor" method="processGroupEnd" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/strings/Latin1StringsParser.java">
+<violation beginline="227" endline="227" begincolumn="45" endcolumn="51" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.strings" class="Latin1StringsParser" method="doParse" variable="context" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'context'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/txt/CharsetMatch.java">
+<violation beginline="69" endline="69" begincolumn="57" endcolumn="59" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.txt" class="CharsetMatch" method="CharsetMatch" variable="rec" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'rec'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/txt/CharsetRecog_sbcs.java">
+<violation beginline="33" endline="1356" begincolumn="10" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.tika.parser.txt" class="CharsetRecog_sbcs" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/video/FLVParser.java">
+<violation beginline="166" endline="266" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.video" class="FLVParser" method="parse" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/main/java/org/apache/tika/parser/wordperfect/WP6DocumentAreaExtractor.java">
+<violation beginline="35" endline="35" begincolumn="31" endcolumn="42" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.wordperfect" class="WP6DocumentAreaExtractor" variable="START_INSERT" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'START_INSERT'.
+</violation>
+<violation beginline="36" endline="36" begincolumn="31" endcolumn="40" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.parser.wordperfect" class="WP6DocumentAreaExtractor" variable="END_INSERT" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'END_INSERT'.
+</violation>
+<violation beginline="67" endline="169" begincolumn="15" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.wordperfect" class="WP6DocumentAreaExtractor" method="extract" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/TestCorruptedFiles.java">
+<violation beginline="103" endline="103" begincolumn="28" endcolumn="60" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika" class="TestCorruptedFiles" variable="HANDLE_EMBEDDED_DOCS_INDIVIDUALLY" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'HANDLE_EMBEDDED_DOCS_INDIVIDUALLY'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/TestXXEInXML.java">
+<violation beginline="207" endline="207" begincolumn="24" endcolumn="33" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika" class="TestXXEInXML" method="testDOMTikaConfig" variable="tikaConfig" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'tikaConfig'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/XMLTestBase.java">
+<violation beginline="111" endline="111" begincolumn="34" endcolumn="39" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika" class="XMLTestBase$VulnerableDOMParser" method="parse" variable="tagged" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'tagged'.
+</violation>
+<violation beginline="136" endline="136" begincolumn="34" endcolumn="39" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika" class="XMLTestBase$VulnerableSAXParser" method="parse" variable="tagged" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'tagged'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/config/TikaEncodingDetectorTest.java">
+<violation beginline="104" endline="104" begincolumn="22" endcolumn="29" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.config" class="TikaEncodingDetectorTest" method="testEncodingDetectorConfigurability" variable="metadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'metadata'.
+</violation>
+<violation beginline="112" endline="112" begincolumn="20" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.config" class="TikaEncodingDetectorTest" method="testEncodingDetectorConfigurability" variable="txt" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'txt'.
+</violation>
+<violation beginline="143" endline="143" begincolumn="24" endcolumn="33" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.config" class="TikaEncodingDetectorTest" method="testNonDetectingDetectorParamsBadCharset" variable="tikaConfig" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'tikaConfig'.
+</violation>
+<violation beginline="174" endline="174" begincolumn="22" endcolumn="29" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.config" class="TikaEncodingDetectorTest" method="testConfigurabilityOfUserSpecified" variable="metadata" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'metadata'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/mime/TestMimeTypes.java">
+<violation beginline="45" endline="1269" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.tika.mime" class="TestMimeTypes" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/BouncyCastleDigestingParserTest.java">
+<violation beginline="78" endline="78" begincolumn="23" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="BouncyCastleDigestingParserTest" method="testBasic" variable="xml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'xml'.
+</violation>
+<violation beginline="111" endline="111" begincolumn="19" endcolumn="21" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="BouncyCastleDigestingParserTest" method="testCommaSeparated" variable="xml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'xml'.
+</violation>
+<violation beginline="129" endline="129" begincolumn="19" endcolumn="21" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="BouncyCastleDigestingParserTest" method="testReset" variable="xml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'xml'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/DigestingParserTest.java">
+<violation beginline="78" endline="78" begincolumn="23" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="DigestingParserTest" method="testBasic" variable="xml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'xml'.
+</violation>
+<violation beginline="106" endline="106" begincolumn="19" endcolumn="21" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="DigestingParserTest" method="testCommaSeparated" variable="xml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'xml'.
+</violation>
+<violation beginline="125" endline="125" begincolumn="19" endcolumn="21" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="DigestingParserTest" method="testReset" variable="xml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'xml'.
+</violation>
+<violation beginline="135" endline="135" begincolumn="23" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="DigestingParserTest" method="testNegativeMaxMarkLength" variable="xml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'xml'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/RecursiveParserWrapperTest.java">
+<violation beginline="339" endline="339" begincolumn="13" endcolumn="13" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="RecursiveParserWrapperTest" method="testDigesters" variable="i" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'i'.
+</violation>
+<violation beginline="340" endline="340" begincolumn="18" endcolumn="19" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="RecursiveParserWrapperTest" method="testDigesters" variable="m0" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'm0'.
+</violation>
+<violation beginline="341" endline="341" begincolumn="18" endcolumn="19" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser" class="RecursiveParserWrapperTest" method="testDigesters" variable="m6" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'm6'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/chm/TestChmExtractor.java">
+<violation beginline="71" endline="71" begincolumn="23" endcolumn="23" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.chm" class="TestChmExtractor" method="testOOMOnCorruptCHM" variable="r" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'r'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/dbf/DBFParserTest.java">
+<violation beginline="77" endline="77" begincolumn="27" endcolumn="27" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.dbf" class="DBFParserTest" method="testTruncated" variable="r" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'r'.
+</violation>
+<violation beginline="88" endline="88" begincolumn="27" endcolumn="27" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.dbf" class="DBFParserTest" method="testTruncated" variable="r" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'r'.
+</violation>
+<violation beginline="99" endline="99" begincolumn="31" endcolumn="31" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.dbf" class="DBFParserTest" method="testTruncated" variable="r" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'r'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/fork/ForkParserIntegrationTest.java">
+<violation beginline="120" endline="120" begincolumn="60" endcolumn="62" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.parser.fork" class="ForkParserIntegrationTest$WontBeSerializedError" method="writeObject" variable="out" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'out'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/html/HtmlParserTest.java">
+<violation beginline="86" endline="1468" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.tika.parser.html" class="HtmlParserTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/jdbc/SQLite3ParserTest.java">
+<violation beginline="162" endline="162" begincolumn="13" endcolumn="13" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.jdbc" class="SQLite3ParserTest" method="testRecursiveParserWrapper" variable="i" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'i'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/microsoft/POIContainerExtractionTest.java">
+<violation beginline="123" endline="328" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft" class="POIContainerExtractionTest" method="testEmbeddedOfficeFiles" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/microsoft/ooxml/OOXMLContainerExtractionTest.java">
+<violation beginline="140" endline="277" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLContainerExtractionTest" method="testEmbeddedOfficeFiles" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/microsoft/ooxml/OOXMLParserTest.java">
+<violation beginline="76" endline="1881" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLParserTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="1580" endline="1580" begincolumn="31" endcolumn="31" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="OOXMLParserTest" method="testBatch" variable="r" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'r'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/microsoft/ooxml/SXWPFExtractorTest.java">
+<violation beginline="70" endline="182" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft.ooxml" class="SXWPFExtractorTest" method="basicTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="571" endline="571" begincolumn="16" endcolumn="21" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="SXWPFExtractorTest" method="testEncrypted" variable="parser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'parser'.
+</violation>
+<violation beginline="572" endline="572" begincolumn="18" endcolumn="18" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="SXWPFExtractorTest" method="testEncrypted" variable="m" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'm'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/microsoft/ooxml/TruncatedOOXMLTest.java">
+<violation beginline="96" endline="96" begincolumn="25" endcolumn="26" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.microsoft.ooxml" class="TruncatedOOXMLTest" method="testTruncation" variable="is" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'is'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/microsoft/ooxml/xwpf/ml2006/Word2006MLParserTest.java">
+<violation beginline="39" endline="154" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006" class="Word2006MLParserTest" method="basicTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/mock/MockParserTest.java">
+<violation beginline="108" endline="108" begincolumn="16" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.mock" class="MockParserTest" method="testSleep" variable="content" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'content'.
+</violation>
+<violation beginline="122" endline="122" begincolumn="16" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.mock" class="MockParserTest" method="testHeavyHang" variable="content" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'content'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/pdf/PDFParserTest.java">
+<violation beginline="78" endline="1448" begincolumn="8" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="org.apache.tika.parser.pdf" class="PDFParserTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="956" endline="956" begincolumn="16" endcolumn="21" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.pdf" class="PDFParserTest" method="testLegacyAccessChecking" variable="parser" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'parser'.
+</violation>
+<violation beginline="1358" endline="1358" begincolumn="20" endcolumn="23" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.pdf" class="PDFParserTest" method="assertException" variable="text" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'text'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/pkg/CompressParserTest.java">
+<violation beginline="99" endline="99" begincolumn="23" endcolumn="23" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.pkg" class="CompressParserTest" method="testLZMAOOM" variable="r" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'r'.
+</violation>
+<violation beginline="108" endline="108" begincolumn="23" endcolumn="23" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.pkg" class="CompressParserTest" method="testCompressOOM" variable="r" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'r'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/pkg/Seven7ParserTest.java">
+<violation beginline="127" endline="229" begincolumn="12" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.parser.pkg" class="Seven7ParserTest" method="testPasswordProtected" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-parsers/src/test/java/org/apache/tika/parser/pkg/ZipContainerDetectorTest.java">
+<violation beginline="100" endline="100" begincolumn="18" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.pkg" class="ZipContainerDetectorTest" method="testXPS" variable="start" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'start'.
+</violation>
+<violation beginline="164" endline="164" begincolumn="24" endcolumn="35" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.parser.pkg" class="ZipContainerDetectorTest" method="timeParsing" variable="mediaTypeSet" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'mediaTypeSet'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-serialization/src/test/java/org/apache/tika/metadata/serialization/JsonMetadataListTest.java">
+<violation beginline="87" endline="87" begincolumn="16" endcolumn="19" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.metadata.serialization" class="JsonMetadataListTest" method="testListCorrupted" variable="json" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'json'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-serialization/src/test/java/org/apache/tika/metadata/serialization/JsonMetadataTest.java">
+<violation beginline="86" endline="86" begincolumn="22" endcolumn="33" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.metadata.serialization" class="JsonMetadataTest" method="testDeserializationException" variable="deserialized" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'deserialized'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-server/src/main/java/org/apache/tika/server/ServerStatus.java">
+<violation beginline="77" endline="77" begincolumn="33" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="org.apache.tika.server" class="ServerStatus" variable="LOG" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'LOG'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-server/src/main/java/org/apache/tika/server/TikaServerCli.java">
+<violation beginline="172" endline="335" begincolumn="20" endcolumn="5" rule="ExcessiveMethodLength" ruleset="Design" package="org.apache.tika.server" class="TikaServerCli" method="executeLegacy" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-server/src/test/java/org/apache/tika/server/DetectorResourceTest.java">
+<violation beginline="64" endline="64" begincolumn="16" endcolumn="18" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.server" class="DetectorResourceTest" method="testDetectCsvWithExt" variable="url" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'url'.
+</violation>
+<violation beginline="81" endline="81" begincolumn="16" endcolumn="18" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.server" class="DetectorResourceTest" method="testDetectCsvNoExt" variable="url" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'url'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-server/src/test/java/org/apache/tika/server/TikaServerIntegrationTest.java">
+<violation beginline="163" endline="163" begincolumn="18" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.server" class="TikaServerIntegrationTest" method="testOOM" variable="response" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'response'.
+</violation>
+<violation beginline="200" endline="200" begincolumn="18" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.server" class="TikaServerIntegrationTest" method="testSystemExit" variable="response" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'response'.
+</violation>
+<violation beginline="237" endline="237" begincolumn="18" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.server" class="TikaServerIntegrationTest" method="testTimeoutOk" variable="response" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'response'.
+</violation>
+<violation beginline="272" endline="272" begincolumn="18" endcolumn="25" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.server" class="TikaServerIntegrationTest" method="testTimeout" variable="response" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'response'.
+</violation>
+<violation beginline="318" endline="318" begincolumn="29" endcolumn="29" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.server" class="TikaServerIntegrationTest" method="testStdErrOutBasic" variable="i" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'i'.
+</violation>
+<violation beginline="355" endline="355" begincolumn="29" endcolumn="29" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.server" class="TikaServerIntegrationTest" method="testStaticStdErrOutBasic" variable="i" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'i'.
+</violation>
+<violation beginline="390" endline="390" begincolumn="29" endcolumn="29" rule="UnusedLocalVariable" ruleset="Best Practices" package="org.apache.tika.server" class="TikaServerIntegrationTest" method="testStdErrOutLogging" variable="i" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'i'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/tika/tika-xmp/src/main/java/org/apache/tika/xmp/XMPMetadata.java">
+<violation beginline="606" endline="606" begincolumn="47" endcolumn="49" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.xmp" class="XMPMetadata" method="readObject" variable="ois" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'ois'.
+</violation>
+<violation beginline="611" endline="611" begincolumn="49" endcolumn="51" rule="UnusedFormalParameter" ruleset="Best Practices" package="org.apache.tika.xmp" class="XMPMetadata" method="writeObject" variable="ois" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'ois'.
+</violation>
+</file>
+</pmd>

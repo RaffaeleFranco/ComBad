@@ -74,8 +74,8 @@ public class AllCommittersFrame {
 		frame.getContentPane().add(panel);
 
 		/*
-		 * Working without DB HashMap<String, Committer> committers =
-		 * controller.getCommitManagers().get(name).getCommitters();
+		 * Working without DB 
+		 * HashMap<String, Committer> committers = controller.getCommitManagers().get(name).getCommitters();
 		 */
 		StringTokenizer stringTokenizer = new StringTokenizer(name, "-");
 

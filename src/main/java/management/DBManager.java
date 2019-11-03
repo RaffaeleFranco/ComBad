@@ -63,7 +63,7 @@ public class DBManager {
 	 * are managed here
 	 */
 	private DBManager() {
-		connectDB("localhost", "3306", "root", "password");
+		connectDB("localhost", "3306", "raffaele", "password");
 		createDB();
 		createTableSoftwareSystems();
 		createTableCommitters();
@@ -83,8 +83,7 @@ public class DBManager {
 	 */
 	public boolean connectDB(String host, String port, String user, String pass) {
 
-		String url = "jdbc:mysql://" + host + ":" + port
-				+ "/sys?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC";
+		String url = "jdbc:mysql://" + host + ":" + port;
 		try {
 			this.connection = DriverManager.getConnection(url, user, pass);
 		} catch (SQLException e) {

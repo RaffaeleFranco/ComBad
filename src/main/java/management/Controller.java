@@ -74,19 +74,19 @@ public class Controller {
 
 		CommitManager cm = null;
 		try {
-			cm = new CommitManager(new BufferedReader(new FileReader("files/" + name + ".txt")));
+			cm = new CommitManager(new BufferedReader(new FileReader("src/main/resources/" + name + ".txt")));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 		DuplicationManager dm = null;
 		try {
-			dm = new DuplicationManager("files/" + name + "_dc.xml");
+			dm = new DuplicationManager("src/main/resources/" + name + "_dc.xml");
 		} catch (ParserConfigurationException | SAXException | IOException e) {
 			e.printStackTrace();
 		}
 		ViolationManager vm = null;
 		try {
-			vm = new ViolationManager("files/" + name + ".xml");
+			vm = new ViolationManager("src/main/resources/" + name + ".xml");
 		} catch (ParserConfigurationException | SAXException | IOException e) {
 			e.printStackTrace();
 		}

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.14.0" timestamp="2019-06-16T20:35:16.323">
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/base/CharMatcher.java">
+<violation beginline="64" endline="1814" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.base" class="CharMatcher" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/base/Platform.java">
+<violation beginline="82" endline="82" begincolumn="23" endcolumn="74" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.google.common.base" class="Platform" method="logPatternCompilerError" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'logPatternCompilerError(ServiceConfigurationError)'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/base/Preconditions.java">
+<violation beginline="117" endline="1432" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.base" class="Preconditions" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/cache/LocalCache.java">
+<violation beginline="103" endline="4996" begincolumn="1" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.cache" class="LocalCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="1829" endline="3466" begincolumn="10" endcolumn="3" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.cache" class="LocalCache" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="4157" endline="4157" begincolumn="13" endcolumn="18" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.google.common.cache" class="LocalCache" method="containsValue" variable="unused" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'unused'.
+</violation>
+<violation beginline="4723" endline="4735" begincolumn="37" endcolumn="41" rule="ExcessiveParameterList" ruleset="Design" package="com.google.common.cache" class="LocalCache$ManualSerializationProxy" method="ManualSerializationProxy" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/collect/AbstractMapBasedMultimap.java">
+<violation beginline="87" endline="1637" begincolumn="10" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.collect" class="AbstractMapBasedMultimap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/collect/Iterators.java">
+<violation beginline="68" endline="1379" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.collect" class="Iterators" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/collect/Lists.java">
+<violation beginline="67" endline="1150" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.collect" class="Lists" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/collect/MapMakerInternalMap.java">
+<violation beginline="70" endline="2949" begincolumn="1" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.collect" class="MapMakerInternalMap" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="2386" endline="2386" begincolumn="13" endcolumn="18" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.google.common.collect" class="MapMakerInternalMap" method="containsValue" variable="unused" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'unused'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/collect/Maps.java">
+<violation beginline="89" endline="4269" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.collect" class="Maps" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/collect/Multimaps.java">
+<violation beginline="72" endline="2197" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.collect" class="Multimaps" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/collect/Multisets.java">
+<violation beginline="59" endline="1178" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.collect" class="Multisets" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/collect/Sets.java">
+<violation beginline="70" endline="2126" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.collect" class="Sets" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/collect/Synchronized.java">
+<violation beginline="67" endline="2162" begincolumn="7" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.collect" class="Synchronized" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/escape/ArrayBasedUnicodeEscaper.java">
+<violation beginline="99" endline="99" begincolumn="24" endcolumn="40" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.google.common.escape" class="ArrayBasedUnicodeEscaper" method="ArrayBasedUnicodeEscaper" variable="unsafeReplacement" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'unsafeReplacement'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/hash/AbstractCompositeHashFunction.java">
+<violation beginline="71" endline="192" begincolumn="11" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.common.hash" class="AbstractCompositeHashFunction" method="fromHashers" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/io/BaseEncoding.java">
+<violation beginline="125" endline="1160" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.io" class="BaseEncoding" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/math/LongMath.java">
+<violation beginline="51" endline="1207" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.math" class="LongMath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/net/MediaType.java">
+<violation beginline="78" endline="1088" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.net" class="MediaType" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/reflect/TypeToken.java">
+<violation beginline="102" endline="1442" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.reflect" class="TypeToken" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/util/concurrent/AbstractFuture.java">
+<violation beginline="67" endline="1354" begincolumn="17" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.util.concurrent" class="AbstractFuture" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+<violation beginline="187" endline="187" begincolumn="20" endcolumn="25" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.google.common.util.concurrent" class="AbstractFuture$Waiter" method="Waiter" variable="unused" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'unused'.
+</violation>
+<violation beginline="811" endline="811" begincolumn="19" endcolumn="24" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.google.common.util.concurrent" class="AbstractFuture" method="setFuture" variable="unused" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'unused'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/util/concurrent/AbstractTransformFuture.java">
+<violation beginline="64" endline="164" begincolumn="16" endcolumn="3" rule="ExcessiveMethodLength" ruleset="Design" package="com.google.common.util.concurrent" class="AbstractTransformFuture" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessivemethodlength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="74" endline="74" begincolumn="15" endcolumn="20" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.google.common.util.concurrent" class="AbstractTransformFuture" method="run" variable="unused" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'unused'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/util/concurrent/AggregateFuture.java">
+<violation beginline="203" endline="203" begincolumn="17" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.google.common.util.concurrent" class="AggregateFuture$RunningState" method="addInitialException" variable="unused" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'unused'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/util/concurrent/Callables.java">
+<violation beginline="92" endline="92" begincolumn="21" endcolumn="26" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.google.common.util.concurrent" class="Callables" method="call" variable="unused" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'unused'.
+</violation>
+<violation beginline="122" endline="122" begincolumn="21" endcolumn="26" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.google.common.util.concurrent" class="Callables" method="run" variable="unused" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'unused'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/util/concurrent/Futures.java">
+<violation beginline="74" endline="1313" begincolumn="14" endcolumn="1" rule="ExcessiveClassLength" ruleset="Design" package="com.google.common.util.concurrent" class="Futures" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#excessiveclasslength" priority="3">
+Avoid really long classes.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/util/concurrent/FuturesGetChecked.java">
+<violation beginline="217" endline="217" begincolumn="17" endcolumn="22" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.google.common.util.concurrent" class="FuturesGetChecked" method="hasConstructorUsableByGetChecked" variable="unused" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'unused'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/util/concurrent/ThreadFactoryBuilder.java">
+<violation beginline="70" endline="70" begincolumn="12" endcolumn="17" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.google.common.util.concurrent" class="ThreadFactoryBuilder" method="setNameFormat" variable="unused" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'unused'.
+</violation>
+</file>
+<file name="/home/raffaele/Scrivania/guava-27.1/guava/src/com/google/common/xml/XmlEscapers.java">
+<violation beginline="103" endline="103" begincolumn="32" endcolumn="42" rule="UnusedPrivateField" ruleset="Best Practices" package="com.google.common.xml" class="XmlEscapers" variable="XML_ESCAPER" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'XML_ESCAPER'.
+</violation>
+</file>
+</pmd>
