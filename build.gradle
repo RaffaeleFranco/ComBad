@@ -9,13 +9,23 @@ repositories {
 }
 
 dependencies {
-    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.16'
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.16'
 }
 
-sourceSets {
-    main {
-        resources {
-            srcDirs "src/main/resources"
-        }
+
+task myJavadocs(type: Javadoc) {
+    source = sourceSets.main.allJava
+}
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Version': 1.0,
+                'Main-Class': 'gui.WelcomeFrame'
+    }
+    from sourceSets.main.output
+
+    dependsOn configurations.runtimeClasspath
+    from {
+        configurations.runtimeClasspath.findAll { it.name.endsWith('jar') }.collect { zipTree(it) }
     }
 }

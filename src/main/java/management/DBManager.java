@@ -79,7 +79,7 @@ public class DBManager {
 	 * @param port port
 	 * @param user username
 	 * @param pass password
-	 * @return
+	 * @return True if database is connected
 	 */
 	public boolean connectDB(String host, String port, String user, String pass) {
 
