@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="78" tokens="279">
+      <file line="87"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/SMIMEARecord.java"/>
+      <file line="85"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/TLSARecord.java"/>
+      <codefragment><![CDATA[	super(name, Type.SMIMEA, dclass, ttl);
+	this.certificateUsage = checkU8("certificateUsage", certificateUsage);
+	this.selector = checkU8("selector", selector);
+	this.matchingType = checkU8("matchingType", matchingType);
+	this.certificateAssociationData = checkByteArrayLength(
+						"certificateAssociationData",
+						certificateAssociationData,
+						0xFFFF);
+}
+
+@Override
+void
+rrFromWire(DNSInput in) throws IOException {
+	certificateUsage = in.readU8();
+	selector = in.readU8();
+	matchingType = in.readU8();
+	certificateAssociationData = in.readByteArray();
+}
+
+@Override
+void
+rdataFromString(Tokenizer st, Name origin) throws IOException {
+	certificateUsage = st.getUInt8();
+	selector = st.getUInt8();
+	matchingType = st.getUInt8();
+	certificateAssociationData = st.getHex();
+}
+
+/** Converts rdata to a String */
+@Override
+String
+rrToString() {
+	StringBuilder sb = new StringBuilder();
+	sb.append(certificateUsage);
+	sb.append(" ");
+	sb.append(selector);
+	sb.append(" ");
+	sb.append(matchingType);
+	sb.append(" ");
+	sb.append(base16.toString(certificateAssociationData));
+
+	return sb.toString();
+}
+
+@Override
+void
+rrToWire(DNSOutput out, Compression c, boolean canonical) {
+	out.writeU8(certificateUsage);
+	out.writeU8(selector);
+	out.writeU8(matchingType);
+	out.writeByteArray(certificateAssociationData);
+}
+
+/** Returns the certificate usage of the SMIMEA record */
+public int
+getCertificateUsage() {
+	return certificateUsage;
+}
+
+/** Returns the selector of the SMIMEA record */
+public int
+getSelector() {
+	return selector;
+}
+
+/** Returns the matching type of the SMIMEA record */
+public int
+getMatchingType() {
+	return matchingType;
+}
+
+/** Returns the certificate associate data of this SMIMEA record */
+public final byte []
+getCertificateAssociationData() {
+	return certificateAssociationData;
+}
+
+}]]></codefragment>
+   </duplication>
+   <duplication lines="84" tokens="245">
+      <file line="54"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/DLVRecord.java"/>
+      <file line="97"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/DSRecord.java"/>
+      <codefragment><![CDATA[}
+
+@Override
+void
+rrFromWire(DNSInput in) throws IOException {
+	footprint = in.readU16();
+	alg = in.readU8();
+	digestid = in.readU8();
+	digest = in.readByteArray();
+}
+
+@Override
+void
+rdataFromString(Tokenizer st, Name origin) throws IOException {
+	footprint = st.getUInt16();
+	alg = st.getUInt8();
+	digestid = st.getUInt8();
+	digest = st.getHex();
+}
+
+/**
+ * Converts rdata to a String
+ */
+@Override
+String
+rrToString() {
+	StringBuilder sb = new StringBuilder();
+	sb.append(footprint);
+	sb.append(" ");
+	sb.append(alg);
+	sb.append(" ");
+	sb.append(digestid);
+	if (digest != null) {
+		sb.append(" ");
+		sb.append(base16.toString(digest));
+	}
+
+	return sb.toString();
+}
+
+/**
+ * Returns the key's algorithm.
+ */
+public int
+getAlgorithm() {
+	return alg;
+}
+
+/**
+ *  Returns the key's Digest ID.
+ */
+public int
+getDigestID()
+{
+	return digestid;
+}
+  
+/**
+ * Returns the binary hash of the key.
+ */
+public byte []
+getDigest() {
+	return digest;
+}
+
+/**
+ * Returns the key's footprint.
+ */
+public int
+getFootprint() {
+	return footprint;
+}
+
+@Override
+void
+rrToWire(DNSOutput out, Compression c, boolean canonical) {
+	out.writeU16(footprint);
+	out.writeU8(alg);
+	out.writeU8(digestid);
+	if (digest != null)
+		out.writeByteArray(digest);
+}
+
+}]]></codefragment>
+   </duplication>
+   <duplication lines="42" tokens="113">
+      <file line="21"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/SMIMEARecord.java"/>
+      <file line="19"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/TLSARecord.java"/>
+      <codefragment><![CDATA[public static class CertificateUsage {
+	private CertificateUsage() {}
+
+	public static final int CA_CONSTRAINT = 0;
+	public static final int SERVICE_CERTIFICATE_CONSTRAINT = 1;
+	public static final int TRUST_ANCHOR_ASSERTION = 2;
+	public static final int DOMAIN_ISSUED_CERTIFICATE = 3;
+}
+
+public static class Selector {
+	private Selector() {}
+
+	/**
+	 * Full certificate; the Certificate binary structure defined in
+	 * [RFC5280]
+	 */
+	public static final int FULL_CERTIFICATE = 0;
+
+	/**
+	 * SubjectPublicKeyInfo; DER-encoded binary structure defined in
+	 * [RFC5280]
+	 */
+	public static final int SUBJECT_PUBLIC_KEY_INFO = 1;
+}
+
+public static class MatchingType {
+	private MatchingType() {}
+
+	/** Exact match on selected content */
+	public static final int EXACT = 0;
+
+	/** SHA-256 hash of selected content [RFC6234] */
+	public static final int SHA256 = 1;
+
+	/** SHA-512 hash of selected content [RFC6234] */
+	public static final int SHA512 = 2;
+}
+
+private int certificateUsage;
+private int selector;
+private int matchingType;
+private byte [] certificateAssociationData;]]></codefragment>
+   </duplication>
+   <duplication lines="20" tokens="87">
+      <file line="93"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/NSEC3PARAMRecord.java"/>
+      <file line="138"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/NSEC3Record.java"/>
+      <codefragment><![CDATA[		out.writeU8(0);
+}
+
+@Override
+void
+rdataFromString(Tokenizer st, Name origin) throws IOException
+{
+	hashAlg = st.getUInt8();
+	flags = st.getUInt8();
+	iterations = st.getUInt16();
+
+	String s = st.getString();
+	if (s.equals("-"))
+		salt = null;
+	else {
+		st.unget();
+		salt = st.getHexString();
+		if (salt.length > 255)
+			throw st.exception("salt value too long");
+	}]]></codefragment>
+   </duplication>
+   <duplication lines="17" tokens="75">
+      <file line="113"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/NSEC3PARAMRecord.java"/>
+      <file line="160"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/NSEC3Record.java"/>
+      <codefragment><![CDATA[}
+
+/** Converts rdata to a String */
+@Override
+String
+rrToString() {
+	StringBuilder sb = new StringBuilder();
+	sb.append(hashAlg);
+	sb.append(' ');
+	sb.append(flags);
+	sb.append(' ');
+	sb.append(iterations);
+	sb.append(' ');
+	if (salt == null)
+		sb.append('-');
+	else
+		sb.append(base16.toString(salt));]]></codefragment>
+   </duplication>
+   <duplication lines="18" tokens="74">
+      <file line="37"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/utils/base16.java"/>
+      <file line="85"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/utils/base64.java"/>
+      <codefragment><![CDATA[	return new String(os.toByteArray());
+}
+
+/**
+ * Convert a hex-encoded String to binary data
+ * @param str A String containing the encoded data
+ * @return An array containing the binary data, or null if the string is invalid
+ */
+public static byte []
+fromString(String str) {
+	ByteArrayOutputStream bs = new ByteArrayOutputStream();
+	byte [] raw = str.getBytes();
+	for (byte b : raw) {
+		if (!Character.isWhitespace((char) b))
+			bs.write(b);
+	}
+	byte [] in = bs.toByteArray();
+	if (in.length % 2 != 0) {]]></codefragment>
+   </duplication>
+   <duplication lines="15" tokens="72">
+      <file line="744"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/DNSSEC.java"/>
+      <file line="856"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/DNSSEC.java"/>
+      <codefragment><![CDATA[	out.writeU8(t);
+
+	int tmp = in.readU8();
+	if (tmp != ASN1_SEQ)
+		throw new IOException("Invalid ASN.1 data, expected " + ASN1_SEQ + " got " + tmp);
+	int seqlen = in.readU8();
+
+	tmp = in.readU8();
+	if (tmp != ASN1_INT)
+		throw new IOException("Invalid ASN.1 data, expected " + ASN1_INT + " got " + tmp);
+
+	// r must be of DSA_LEN or +1 if it has a leading zero for negative
+	// ASN.1 integers
+	int rlen = in.readU8();
+	if (rlen == DSA_LEN + 1 && in.readU8() == 0) { ]]></codefragment>
+   </duplication>
+   <duplication lines="9" tokens="68">
+      <file line="362"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/Cache.java"/>
+      <file line="393"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/Cache.java"/>
+      <codefragment><![CDATA[	int type = rrset.getType();
+	Element element = findElement(name, type, 0);
+	if (ttl == 0) {
+		if (element != null && element.compareCredibility(cred) <= 0)
+			removeElement(name, type);
+	} else {
+		if (element != null && element.compareCredibility(cred) <= 0)
+			element = null;
+		if (element == null) {]]></codefragment>
+   </duplication>
+   <duplication lines="19" tokens="63">
+      <file line="57"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/Cache.java"/>
+      <file line="106"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/Cache.java"/>
+      <codefragment><![CDATA[	}
+
+	@Override
+	public final boolean
+	expired() {
+		int now = (int)(System.currentTimeMillis() / 1000);
+		return (now >= expire);
+	}
+
+	@Override
+	public final int
+	compareCredibility(int cred) {
+		return credibility - cred;
+	}
+
+	@Override
+	public String
+	toString() {
+		StringBuilder sb = new StringBuilder();]]></codefragment>
+   </duplication>
+   <duplication lines="14" tokens="63">
+      <file line="80"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/NSEC3PARAMRecord.java"/>
+      <file line="121"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/NSEC3Record.java"/>
+      <codefragment><![CDATA[}
+
+@Override
+void
+rrToWire(DNSOutput out, Compression c, boolean canonical) {
+	out.writeU8(hashAlg);
+	out.writeU8(flags);
+	out.writeU16(iterations);
+
+	if (salt != null) {
+		out.writeU8(salt.length);
+		out.writeByteArray(salt);
+	} else
+		out.writeU8(0);]]></codefragment>
+   </duplication>
+   <duplication lines="14" tokens="59">
+      <file line="66"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/NSEC3PARAMRecord.java"/>
+      <file line="103"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/NSEC3Record.java"/>
+      <codefragment><![CDATA[}
+
+@Override
+void
+rrFromWire(DNSInput in) throws IOException {
+	hashAlg = in.readU8();
+	flags = in.readU8();
+	iterations = in.readU16();
+
+	int salt_length = in.readU8();
+	if (salt_length > 0)
+		salt = in.readByteArray(salt_length);
+	else
+		salt = null;]]></codefragment>
+   </duplication>
+   <duplication lines="8" tokens="57">
+      <file line="297"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/Cache.java"/>
+      <file line="308"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/Zone.java"/>
+      <codefragment><![CDATA[removeElement(Name name, int type) {
+	Object types = data.get(name);
+	if (types == null) {
+		return;
+	}
+	if (types instanceof List) {
+		List list = (List) types;
+		for (int i = 0; i < list.size(); i++) {]]></codefragment>
+   </duplication>
+   <duplication lines="7" tokens="57">
+      <file line="465"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/TSIG.java"/>
+      <file line="629"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/TSIG.java"/>
+      <codefragment><![CDATA[	tsig.getAlgorithm().toWireCanonical(out);
+	long time = tsig.getTimeSigned().getTime() / 1000;
+	int timeHigh = (int) (time >> 32);
+	long timeLow = (time & 0xFFFFFFFFL);
+	out.writeU16(timeHigh);
+	out.writeU32(timeLow);
+	out.writeU16(tsig.getFudge());]]></codefragment>
+   </duplication>
+   <duplication lines="9" tokens="55">
+      <file line="712"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/DNSSEC.java"/>
+      <file line="826"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/DNSSEC.java"/>
+      <codefragment><![CDATA[		for(int i = 0; i < DSA_LEN - 1 && s[i] == 0 && s[i+1] >= 0; i++)
+			slen--;
+
+	out.writeU8(ASN1_SEQ);
+	out.writeU8(rlen + slen + 4);
+
+	out.writeU8(ASN1_INT);
+	out.writeU8(rlen);
+	if (rlen > DSA_LEN)]]></codefragment>
+   </duplication>
+   <duplication lines="8" tokens="54">
+      <file line="52"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/NSEC3PARAMRecord.java"/>
+      <file line="83"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/NSEC3Record.java"/>
+      <codefragment><![CDATA[	super(name, Type.NSEC3PARAM, dclass, ttl);
+	this.hashAlg = checkU8("hashAlg", hashAlg);
+	this.flags = checkU8("flags", flags);
+	this.iterations = checkU16("iterations", iterations);
+
+	if (salt != null) {
+		if (salt.length > 255)
+			throw new IllegalArgumentException("Invalid salt " +]]></codefragment>
+   </duplication>
+   <duplication lines="9" tokens="53">
+      <file line="303"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/TSIG.java"/>
+      <file line="202"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/TSIGRecord.java"/>
+      <codefragment><![CDATA[	alg.toWireCanonical(out);
+	long time = timeSigned.getTime() / 1000;
+	int timeHigh = (int) (time >> 32);
+	long timeLow = (time & 0xFFFFFFFFL);
+	out.writeU16(timeHigh);
+	out.writeU32(timeLow);
+	out.writeU16(fudge);
+
+	out.writeU16(error);]]></codefragment>
+   </duplication>
+   <duplication lines="13" tokens="52">
+      <file line="766"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/DNSSEC.java"/>
+      <file line="876"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/DNSSEC.java"/>
+      <codefragment><![CDATA[		throw new IOException("Invalid r-value in ASN.1 DER encoded DSA signature: " + rlen);
+	}
+
+	out.writeByteArray(in.readByteArray(rlen));
+
+	tmp = in.readU8();
+	if (tmp != ASN1_INT)
+		throw new IOException("Invalid ASN.1 data, expected " + ASN1_INT + " got " + tmp);
+
+	// s must be of DSA_LEN or +1 if it has a leading zero for negative
+	// ASN.1 integers
+	int slen = in.readU8();
+	if (slen == DSA_LEN + 1 && in.readU8() == 0) {]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="50">
+      <file line="131"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/Generator.java"/>
+      <file line="146"
+            path="/home/raffaele/Scrivania/dnsjava/org/xbill/DNS/Generator.java"/>
+      <codefragment><![CDATA[				while (i + 1 < str.length) {
+					c = (char)(str[++i] & 0xFF);
+					if (c == ',' || c == '}')
+						break;
+					if (c < '0' || c > '9')
+						throw new TextParseException(]]></codefragment>
+   </duplication>
+</pmd-cpd>
