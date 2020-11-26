@@ -1,5 +1,8 @@
 package management;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -12,11 +15,11 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 
-import base.CommitterBadCodeSmell;
 import base.BadCodeSmell;
 import base.Change;
 import base.Commit;
 import base.Committer;
+import base.CommitterBadCodeSmell;
 import base.DeadCode;
 import base.DuplicatedCode;
 import base.LargeClass;
@@ -29,11 +32,12 @@ public class DBManager {
 	private static DBManager instance;
 
 	/**
-	 * Singleton design pattern 
+	 * Singleton design pattern
 	 * 
 	 * @return A single instance of DBManager
+	 * @throws IOException
 	 */
-	public static DBManager getInstance() {
+	public static DBManager getInstance() throws IOException {
 		if (instance == null)
 			instance = new DBManager();
 		return instance;
@@ -58,12 +62,24 @@ public class DBManager {
 	private Connection connection;
 
 	/**
-	 * This class implements the Pure Fabrication design pattern (GRASP), In particular,
-	 * the responsibilities about the access (so read and write) into MySQL database
-	 * are managed here
+	 * This class implements the Pure Fabrication design pattern (GRASP), In
+	 * particular, the responsibilities about the access (so read and write) into
+	 * MySQL database are managed here
+	 * 
+	 * @throws IOException
 	 */
-	private DBManager() {
-		connectDB("localhost", "3306", "raffaele", "password");
+	private DBManager() throws IOException {
+
+		BufferedReader br = new BufferedReader(new FileReader("src/main/resources/config.db"));
+
+		String localhost = br.readLine();
+		String port = br.readLine();
+		String name = br.readLine();
+		String password = br.readLine();
+
+		br.close();
+
+		connectDB(localhost, port, name, password);
 		createDB();
 		createTableSoftwareSystems();
 		createTableCommitters();

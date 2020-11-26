@@ -37,16 +37,20 @@ public class Controller {
 
 	/** Singleton design pattern 
 	 * @return A single instance of Controller
+	 * @throws IOException 
 	 */
-	public static Controller getInstance() {
+	public static Controller getInstance()  {
 		if (instance == null)
 			instance = new Controller();
 		return instance;
 	}
 
-	private Controller() {
-
+	private Controller()  {
+		try {
 		dbManager = DBManager.getInstance();
+		} catch (IOException e) {
+			System.err.println("Problem with DB");
+		}
 		commitManagers = new HashMap<String, CommitManager>();
 		duplicationManagers = new HashMap<String, DuplicationManager>();
 		violationManagers = new HashMap<String, ViolationManager>();

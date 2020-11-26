@@ -1,23 +1,10 @@
 package management;
 
-import base.*;
-import org.junit.jupiter.api.Test;
-import org.xml.sax.SAXException;
-
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Date;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 class DBManagerTest {
 
 	/* work only in local
     @Test
-    void DBManagerTest1() {
+    void DBManagerTest1() throws IOException {
         DBManager db = DBManager.getInstance();
 
         db.insertIntoSoftwareSystems("ok", "ok");
@@ -29,7 +16,7 @@ class DBManagerTest {
         assert true;
 
     }
-
+   
     @Test
     void DBManagerTest2() throws ParserConfigurationException, SAXException, IOException {
         DBManager db = DBManager.getInstance();
